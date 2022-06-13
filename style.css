@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /*font style*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');  /*font style*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a,button {                          /*login and sign up button style*/
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+
+body {                                                     /*background image*/
+    background-image: url('background_and_logo/background_image.jpg');
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-size: 1920px 1080px;
+    background-position: 50% 0%;
+}
+
+header {                                            /*header*/
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, rgba(255, 127, 80, 0.75), rgba(255, 127, 80, 1));
+    align-items: center;
+    padding: 20px 5%;
+    width: 100%;
+}
+
+.logo {                                          /*logo pointer effect*/
+    cursor: pointer;
+}
+
+.nav__links {                                   /*no style for navlinks */
+    list-style: none;
+}
+
+.nav__links li {                               /* padding */
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.nav__links li a {                            /*smooth transition for hover*/
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {                     /*color of the nav when hovered */
+    color: darkblue;
+}
+
+button {                                     /* button styling and animation*/
+    padding: 9px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {                              /*button fade away on hover */
+    background-color: rgba(0, 136, 169, 0.4);
+}
+/*------------------------------------------------------*/
+footer{                                /*footer styling */
+    background: coral;
+    height: auto;
+    width: 100%;
+    font-family: "Montserrat";
+    padding-top: 40px;
+    color: black;
+}
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.footer-content h3{
+    font: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i{
+    color: rgb(10, 223, 223);
+}
+/*footer end */
+
+

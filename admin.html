@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes</title>
+    <link rel="stylesheet" href="style_admin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/3601bc719b.js" crossorigin="anonymous"></script>
+    <script src="admin.js"></script>
+</head>
+
+<body onload="displayProducts()">
+
+    <header>
+        <a href="home_page.html">
+            <img class="logo" src="background_and_logo/ISSEKAI PORTAL-logos_blac.png" alt=logo height="128px" width="520px">
+        </a>
+
+        <button onclick="addProducts()">Add new product</button>
+        <button onclick="deleteProducts()">Delete product</button>
+        <button onclick="editProducts()">Edit product</button>
+    </header>
+    <div class="small-container">
+        <div id="mydiv" class="grid-container">
+        </div>
+    </div>
+</body>

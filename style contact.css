@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /*font style*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');  /*font style*/
+
+body{
+    background-attachment: fixed;   /* to make back ground img on fixed on whole page */
+}
+
+.location{                                /*map*/
+    width:80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{                     /*map*/
+    width: 100%;
+    margin-top: 0%;
+}
+.contact-us{                      /*place holders editing*/
+    width: 80%;
+    margin-bottom: 30px;
+}
+.contact-col div{              /*place holders*/
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.contact-col button{                     /*button editing*/
+    margin-left: 670px;
+}
+.contact-col button:hover{             /* button effect */
+    background-color: blue;
+}
+
+.contact-col input, .contact-col textarea{      /*text area editing*/
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.815);
+    margin-left: 150px;
+}                            

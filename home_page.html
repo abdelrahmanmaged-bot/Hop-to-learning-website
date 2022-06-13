@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style homepage.css">
+    <link rel="stylesheet" href="style img slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/3601bc719b.js" crossorigin="anonymous"></script>   
+</head>
+
+<body>
+    <header>
+        <a href="home_page.html">
+            <img class="logo" src="background_and_logo/ISSEKAI PORTAL-logos_blac.png" alt=logo height="128px" width="520px">
+            </a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="figures.html">Figures</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="Contact_us.html">contact us</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="login.html"><button>Login</button></a>
+        <a class="cta" href="signup.html"><button>Signup</button></a>
+    </header>
+    <!--------------------Image slide bar start-------------------->
+    <div class="slider">
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            
+            <div class="slide first">
+               <img src="img slider imgs/Screenshot (20).png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="img slider imgs/Screenshot (18).png" alt="">
+             </div>
+
+             <div class="slide">
+                <img src="img slider imgs/IMG_20210820_125847.jpg"  alt="">
+             </div>
+
+             <div class="slide">
+                <img src="img slider imgs/Screenshot 2021-08-19 161612.png" alt="">
+             </div>
+
+             <div class="navigation-auto">
+                 <div class="auto-btn1"></div>
+                 <div class="auto-btn2"></div>
+                 <div class="auto-btn3"></div>
+                 <div class="auto-btn4"></div>
+             </div>
+             
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    },5000);
+    </script>
+<!-------------------------image slide bar-------------------->
+    <div class="container">
+<!-- featured products -->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-3">
+            <a href="https://www.paybanks.ml/ProductDetail.aspx?iid=242876848&pr=87.99">
+            <img src="homepage imgs/IMG_20210819_211351.jpg" >
+            </a>
+            <h4>White Dragon Ball Hoodie</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>233.00 EGP</p>
+
+        </div>
+        <div class="col-3">
+            <a href="https://www.walmart.com/ip/KABOER-Anime-Naruto-Men-s-and-Women-s-3D-Printing-Long-Sleeve-Casual-Top-Style3-XL/319938180">
+            <img src="homepage imgs/IMG_20210819_211427.jpg" >
+             </a>
+            <h4>Black Naruto Hoodie</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>219.00 EGP</p>
+
+        </div>
+        <div class="col-3">
+            <a href="https://www.wish.com/product/new-fashion-3d-print-japanese-anime-characters--one-punch-man--one-piecesuper-saiyan-naruto-bleach-t-shirt-for-menwomen-5e6b4142d413b355a552085f?hide_login_modal=true&share=web">
+            <img src="homepage imgs/IMG_20210819_211407.jpg">
+            </a>
+            <h4>Black Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>199.00 EGP</p>
+
+        </div>
+    </div>
+    <!-------------------latest products----------------->
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-3">
+            <a href="https://www.lazada.com.ph/products/kong-red-cloud-special-car-key-rings-keychains-car-key-chain-keychain-keyholder-cartoon-naruto-naruto-key-rings-naruto-symbol-i2242521562-s10112865073.html?spm=a2o4l.searchlist.list.136.3e5d1ef1WDBSNW&search=1">
+            <img src="homepage imgs/Screenshot_18.png" >
+            </a>
+            <h4>Keyrings and Medal</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>10.00 EGP</p>
+
+        </div>
+        <div class="col-3">
+            <a href="https://www.stock4en.top/ProductDetail.aspx?iid=83045640&pr=48.99">
+            <img src="homepage imgs/Screenshot_19.png" >
+            </a>
+            <h4>One Piece Hoodie</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>230.00 EGP</p>
+
+        </div>
+        <div class="col-3">
+            <a href="https://solarisjapan.com/collections/attack-on-titan/products/shingeki-no-kyojin-levi-figma-213-max-factory">
+            <img src="homepage imgs/Screenshot_20.png" >
+            </a>
+            <h4>Levi Ackerman Figure</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p>125.00 EGP</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <a href="https://fashionelites.com/product/sukuna-anime-hoodie/">
+            <img src="homepage imgs/Screenshot_2021-08-19_161612.png" >
+            </a>
+            <h4>Jujutsu Kaisen Hoodie</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>219.00 EGP</p>
+
+        </div>
+        <div class="col-3">
+            <a href="https://www.mtechroweb.com/index.php?main_page=product_info&products_id=121888">
+            <img src="homepage imgs/IMG_20210820_125847.jpg" >
+            </a>
+            <h4>Demon Slayer Mug</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>70.00 EGP</p>
+
+        </div>
+        <div class="col-3">
+            <a href="https://kurama-anime-stuff.com/collections/attack-on-titan-accessories/products/aot-wings-of-freedom-backpack">
+            <img src="homepage imgs/IMG_20210820_125734.jpg" >
+            </a>
+            <h4>Attack on Titans Bag</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>150.00 EGP</p>
+        </div>
+    </div>   
+</div>
+<!--offer-->
+<div class="offer">
+    <div class="small-container2">
+        <div class="row">
+            <div class="col-2">
+                <img src="homepage imgs/deathnote.jpg" class="offer-img">
+            </div>
+            <div class="col-2">
+            <p>Exclusively Available on Isekai Portal</p>
+            <h1>DEATH NOTE CAST</h1>
+            <small>Exclusive Signed Print from the Anime and Manga series-Poster Gift-A3 Size. <span> Only 6 left in stock.</span></span></small>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="footer-content">
+        <h3>ISSEKAI PORTAL</h3>
+        <p>Follow us on our socials for more information about us and the products</p>
+        <u1 class="socials">
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
+            <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-tiktok"></i></a></li>      
+        </u1>
+        <div class="footer-bottom">
+          <p>Copyright &copy;2021  ISSEKAI PORTAL Designed By <span>Otakus Reborn</span></p>   
+        </div>
+    </div>
+</footer>
+<!--footer End-->
+</body>
+
+</html>
